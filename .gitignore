@@ -1,0 +1,26 @@
+# Checkpoints, models, and training logs
+outputs/
+checkpoints/
+*.pt
+*.safetensors
+*.bin
+
+# Datasets and cache
+data/
+datasets/
+*.mp4
+*.h5
+*.zarr
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# System & OS
+.DS_Store
+*.log
+/tmp/
